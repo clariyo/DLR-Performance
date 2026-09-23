@@ -3,4 +3,4 @@ Allow: /
 Disallow: /privacy.html
 Disallow: /terms.html
 
-Sitemap: /sitemap.xml
+Sitemap: https://clariyo.github.io/DLR-Performance/sitemap.xml

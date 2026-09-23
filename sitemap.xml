@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>/index.html</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
-  <url><loc>/services.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>/about.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>/reviews.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>/contact.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://clariyo.github.io/DLR-Performance/index.html</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://clariyo.github.io/DLR-Performance/services.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://clariyo.github.io/DLR-Performance/diagnostics-electrical-fault-finding.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://clariyo.github.io/DLR-Performance/timing-belt-cam-belt-replacement.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://clariyo.github.io/DLR-Performance/performance-remapping.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://clariyo.github.io/DLR-Performance/servicing-maintenance.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://clariyo.github.io/DLR-Performance/sensor-component-replacement.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://clariyo.github.io/DLR-Performance/straight-talking-guidance.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://clariyo.github.io/DLR-Performance/about.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://clariyo.github.io/DLR-Performance/reviews.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://clariyo.github.io/DLR-Performance/contact.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>

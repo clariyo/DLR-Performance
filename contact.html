@@ -11,6 +11,35 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/styles.css" />
   <link rel="icon" href="assets/img/dlr-logo.png" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutoRepair",
+    "@id": "https://clariyo.github.io/DLR-Performance/#business",
+    "name": "DLR Performance",
+    "url": "https://clariyo.github.io/DLR-Performance/",
+    "telephone": "+441706558485",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Unit 1A, Bridge Mills, Rochdale Rd",
+      "addressLocality": "Edenfield, Ramsbottom",
+      "addressRegion": "Bury",
+      "postalCode": "BL0 0RE",
+      "addressCountry": "GB"
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "08:30",
+      "closes": "17:00"
+    }],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "108"
+    }
+  }
+  </script>
   <style>
     /* Contact form styles */
     .form-card { background: var(--ink-2); border: 1px solid var(--line); border-radius: var(--radius); padding: clamp(24px, 4vw, 38px); }
@@ -39,7 +68,17 @@
     </a>
     <nav class="nav" aria-label="Primary">
       <a href="index.html">Home</a>
-      <a href="services.html">Services</a>
+      <div class="nav-drop">
+        <a href="services.html" class="nav-drop-label" aria-haspopup="true" aria-expanded="false">Services</a>
+        <div class="nav-drop-menu">
+          <a href="diagnostics-electrical-fault-finding.html">Diagnostics</a>
+          <a href="timing-belt-cam-belt-replacement.html">Timing belts</a>
+          <a href="performance-remapping.html">Remapping</a>
+          <a href="servicing-maintenance.html">Servicing</a>
+          <a href="sensor-component-replacement.html">Sensors</a>
+          <a href="straight-talking-guidance.html">Honest advice</a>
+        </div>
+      </div>
       <a href="about.html">About</a>
       <a href="reviews.html">Reviews</a>
       <a href="contact.html" class="active">Contact</a>
@@ -115,7 +154,9 @@
           <div class="form-success" id="formSuccess">
             <strong style="color:var(--accent);">Your enquiry is ready.</strong> We don't take email through this form — give us a call and read out the details below, or pop in.
             <div id="enquirySummary" style="margin-top:12px; font-size:14px; color:var(--text-2); background:var(--ink); border:1px solid var(--line); border-radius:8px; padding:14px; white-space:pre-wrap; font-family:var(--font-mono); line-height:1.5;"></div>
-            <a href="tel:01706558485" class="btn btn-primary" style="margin-top:14px; width:100%; justify-content:center;">Call 01706 558 485 <span class="arrow">→</span></a>
+            <div class="cta-actions-row" style="display:flex; flex-wrap:wrap; gap:12px;">
+              <a href="tel:01706558485" class="btn btn-primary" style="margin-top:14px; flex:1; justify-content:center;">Call 01706 558 485 <span class="arrow">→</span></a>
+            </div>
           </div>
 
           <form id="contactForm" onsubmit="return false;">
@@ -180,7 +221,7 @@
       </div>
       <div class="foot-col">
         <h5>Services</h5>
-        <ul><li><a href="services.html#diagnostics">Diagnostics</a></li><li><a href="services.html#timing-belt">Timing belts</a></li><li><a href="services.html#remapping">Remapping</a></li><li><a href="services.html#servicing">Servicing</a></li><li><a href="services.html#sensors">Sensors &amp; repairs</a></li></ul>
+        <ul><li><a href="diagnostics-electrical-fault-finding.html">Diagnostics</a></li><li><a href="timing-belt-cam-belt-replacement.html">Timing belts</a></li><li><a href="performance-remapping.html">Remapping</a></li><li><a href="servicing-maintenance.html">Servicing</a></li><li><a href="sensor-component-replacement.html">Sensors &amp; repairs</a></li><li><a href="straight-talking-guidance.html">Honest advice</a></li></ul>
       </div>
       <div class="foot-col">
         <h5>Visit</h5>

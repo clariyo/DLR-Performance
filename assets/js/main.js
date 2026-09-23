@@ -7,11 +7,14 @@
   if (toggle) {
     toggle.addEventListener("click", function () {
       document.body.classList.toggle("nav-open");
+      var open = document.body.classList.contains("nav-open");
+      toggle.setAttribute("aria-expanded", open ? "true" : "false"); // V2 sync
     });
     // close on link click (mobile)
     document.querySelectorAll(".nav a").forEach(function (a) {
       a.addEventListener("click", function () {
         document.body.classList.remove("nav-open");
+        toggle.setAttribute("aria-expanded", "false");
       });
     });
   }
