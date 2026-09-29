@@ -380,6 +380,12 @@ section.block { padding: clamp(64px, 9vw, 120px) 0; }
   display: inline-flex; align-items: center; gap: 8px;
 }
 
+/* V5: hole-free layout when the grid holds 5 cards (3-col desktop: 3+2, last card spans cols 2-4; 2-col tablet: full-width last row) */
+.svc-card:last-child:nth-child(3n+2) { grid-column: 2 / 4; }
+@media (max-width: 1024px) {
+  .svc-card:last-child:nth-child(odd) { grid-column: 1 / -1; }
+}
+
 /* --- Feature split (image + text) --- */
 .split {
   display: grid;
